@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/JavaProjects/CoreJava_July2025/IntelliJ/OpenMrsSeleniumJavaMavenProject">
+        <classes>
+            <class name="org.openmrs.OpenMrsDataDrivenFrameworkTestCases">
+                <methods>
+                    <include name="registerPatientTest"/>
+<!--                    <include name="findPatientTest"/>-->
+<!--                    <include name="activateVisitsAndAddAttachmentsTest"/>-->
+                    <include name="deletePatientTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
