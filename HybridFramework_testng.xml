@@ -9,7 +9,7 @@
                     <include name="registerPatientTest"/>
 <!--                    <include name="findPatientTest"/>-->
 <!--                    <include name="activateVisitsAndAddAttachmentsTest"/>-->
-<!--                    <include name="deletePatientTest"/>-->
+                    <include name="deletePatientTest"/>
                 </methods>
             </class>
         </classes>

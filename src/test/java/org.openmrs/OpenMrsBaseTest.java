@@ -21,6 +21,7 @@ public class OpenMrsBaseTest {
     public FindPatientPage findPatientPage;
     public VisitsPage visitsPage;
     public AttachmentsPage attachmentsPage;
+    public CommonUtils commonUtils;
 
     @BeforeSuite(alwaysRun = true)
     public void beforeSuit() {
@@ -39,6 +40,7 @@ public class OpenMrsBaseTest {
         findPatientPage = new FindPatientPage(driver);
         visitsPage = new VisitsPage(driver);
         attachmentsPage = new AttachmentsPage(driver);
+        commonUtils = new CommonUtils(driver);
     }
 
     @BeforeClass(alwaysRun = true)
